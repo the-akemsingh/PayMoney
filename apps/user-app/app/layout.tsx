@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={bebas_Neue.className}>
         <Providers>
-          <Appbar></Appbar>
+          <Appbar />
           {children}
         </Providers>
       </body>

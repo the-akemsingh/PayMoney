@@ -9,7 +9,7 @@ export default function P2P() {
         <MenuBar />
       </div>
       <div className="flex pl-40  flex-col justify-center col-span-2 px-16">
-        <P2PTranfer></P2PTranfer>
+        <P2PTranfer />
       </div>
     </div>
   );

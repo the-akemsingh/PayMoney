@@ -6,9 +6,9 @@ export default  function AddMoney(): JSX.Element {
   return (
     <div className="grid grid-cols-3 ">
       <div className="col-span-1 h-screen mt-20">
-        <MenuBar></MenuBar>
+        <MenuBar />
       </div>
-      <AddMoneyCard></AddMoneyCard>
+      <AddMoneyCard />
     </div>
   )
 }
