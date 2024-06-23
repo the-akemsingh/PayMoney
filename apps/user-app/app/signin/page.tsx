@@ -33,15 +33,15 @@ export default function Signin(): JSX.Element {
 
                     <InputBar label="Email" type="text" placeholder="Email@provider.com" onChange={(e) => {
                         setEmail(e.target.value)
-                    }}  ></InputBar>
+                    }}   />
 
                     <InputBar label="Password" type="password" placeholder="*********" onChange={(e) => {
                         setPassword(e.target.value)
-                    }} ></InputBar>
+                    }}  />
                     
                     <hr />
                     <div className="flex justify-center">
-                        <Button name="LogIn" onClick={handleSignIn}></Button>
+                        <Button name="LogIn" onClick={handleSignIn} />
                     </div>
                     <div>
                         Don't have an account? <a href="/signup" className="text-blue-500">Sign Up</a>
