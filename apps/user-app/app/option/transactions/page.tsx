@@ -28,7 +28,7 @@ export default async function Transactions() {
   return (
     <div className="grid grid-cols-3 ">
       <div className="col-span-1 h-screen mt-20">
-        <MenuBar></MenuBar>
+        <MenuBar />
       </div>
       <div className="flex mt-40 pl-40 flex-col col-span-2 gap-20 " >
         <div className="gap-4 ">
@@ -36,7 +36,7 @@ export default async function Transactions() {
           <div className="font-bold text-2xl mt-2">Here are your transactions</div>
         </div>
         <div className="flex flex-col  gap-4">
-          <TransactionsHistory transactions={transactions}></TransactionsHistory>
+          <TransactionsHistory transactions={transactions} />
         </div>
       </div>
     </div>
